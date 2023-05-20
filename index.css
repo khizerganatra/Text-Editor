@@ -1,0 +1,83 @@
+*{
+    box-sizing: border-box;
+    background-color: black;    
+}
+
+h2{
+    margin-top: 30px;
+    color: rgb(255, 187, 0);
+    text-align: center;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.mainDiv{
+    margin-top: 30px;
+    /* background-color: brown; */
+    display: flex;
+    /* min-height: 50px; */
+}
+
+.btnDiv{
+    width: 90%;
+    background-color: rgba(153, 165, 42, 0.377);
+    /* min-height: 60px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-top-right-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+
+.btnDivWrapper{
+    width: 20%;
+    background-color: rgb(210, 162, 30);
+    display: flex;
+    border-top-right-radius: 150px;
+    border-bottom-right-radius: 150px;
+    align-items: center;
+}
+
+
+.textDiv{
+    width: 80%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtarea{
+    border-radius: 20px;
+    background-color: white;
+}
+
+button{
+    
+    padding: 5px;
+    margin: 5.5px;
+    width: 80px;
+    border: 4px;
+
+    border-color: rgb(3, 3, 3);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
+    background-color: rgb(165, 136, 42);
+}
+
+ul,li{
+    background-color: rgb(165, 136, 42) ;
+}
+
+button > i,em,u{
+   
+    color: white;
+    background-color: rgb(165, 142, 42);
+}
